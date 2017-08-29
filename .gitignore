@@ -1,0 +1,16 @@
+# log files
+npm-debug.log*
+
+# dist directory
+dist
+
+# dependency directory
+node_modules
+test
+
+# macOS file
+.DS_Store
+
+.vscode
+
+*.html

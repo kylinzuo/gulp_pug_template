@@ -1,0 +1,21 @@
+doctype html
+html(lang="zh-CN")
+  head
+    meta(charset='UTF-8')
+    meta(name="keywords" content="商品链")
+    meta(name="format-detection" content="telephone=no, email=no")
+    meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1')
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    link(type='text/css', rel="stylesheet", href="node_modules/bootstrap/dist/css/bootstrap.min.css")
+    link(type='text/css', rel='stylesheet', href='node_modules/swiper/dist/css/swiper.min.css', media='screen,projection')
+    link(type='text/css', rel='stylesheet', href='dist/css/common.css')
+    block stylesheets
+  body
+    //- include nav.pug
+    .outer-wrapper
+      block content
+    script(type='text/javascript', src='node_modules/jquery/dist/jquery.min.js')
+    script(type='text/javascript', src='node_modules/swiper/dist/js/swiper.jquery.min.js')
+    script(type='text/javascript', src='node_modules/bootstrap/dist/js/bootstrap.min.js')
+    script(type='text/javascript', src='dist/js/common-min.js')
+    block javascripts

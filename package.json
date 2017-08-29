@@ -1,0 +1,29 @@
+{
+  "name": "ico_web",
+  "version": "1.0.0",
+  "description": "The offical website of ico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "author": "kylin zuo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "swiper": "^3.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-minify": "^1.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
