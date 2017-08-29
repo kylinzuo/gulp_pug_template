@@ -33,6 +33,12 @@ gulp.task("less", () => {
     }))
 });
 
+// gulp.task("jsMove", () => {
+//   return gulp
+//     .src("src/js/**/*.json")
+//     .pipe(gulp.dest(JS_PATH))
+// });
+
 gulp.task("jsProd", () => {
   console.log('=== jsProd')
   return gulp
@@ -66,5 +72,5 @@ gulp.task("default", ["watch", "build"]);
 
 // clean
 gulp.task("clean", function(callback) {
-  del(["dist/js/*", "dist/css/*"], callback);
+  del(["dist/js/**/*.js", "dist/css/**/*.css"], callback);
 });

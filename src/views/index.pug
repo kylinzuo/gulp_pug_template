@@ -1,11 +1,20 @@
 extends layout
 
 block content
-  .bg 静态网页开发模版
+  #particles-js
 
 append stylesheets
+  style.
+    #particles-js {
+      background: #000;
+      width: 100%;
+      height: 960px;
+    }
 
 append javascripts
+  script(type='text/javascript', src='node_modules/particles.js/particles.js')
+  //- script(type='text/javascript', src='dist/js/lib/stats.js')
+  script(type='text/javascript', src='dist/js/lib/particles-min.js')
   script.
     $(function() {
       console.log('hello hello')
